@@ -1,0 +1,37 @@
+{
+  "pubConfig": {
+    "BankOrgCode": "INGHK",
+    "AccountId": "3caf354b097dade39098def7834ea2280837c0f261b97d40a38562030e0d5942",
+    "CallbackUrl": "http://Dummy:8000",
+    "EnableMock": false,
+    "EnableDebug": true,
+    "MYCHAIN_APP_NAME": "mychain",
+    "SBLC_CONTRACT_ID": "0xd574aa27450ca0fa2a9609aef2dd677b30321dcb067c518bffa15a706e4f1687",
+    "MAX_ATTEMPTS": 5,
+    "JWT_KEY_PATH_CONFIG": {
+      "JWT_PRIVATE_KEY":"",
+      "JWT_PUBLIC_KEY": "",
+      "SCB_API_CLIENT_CERT_PRIVATE_KEY":"",
+      "SCB_API_CLIENT_CERT_SIGNED":"",
+      "C_ActivationKey_Content": "",
+      "C_ActivationKey_Key": "",
+      "C_WebHookUrl": "",
+      "C_EnableWebHook": true,
+      "C_SCB_CALLBACK_BASE_URL": "",
+      "C_SCB_CALLBACK_ACTIVATION_URL": "",
+      "C_SCB_CALLBACK_ISSUE_EVENT_URL": "",
+      "C_SCB_CALLBACK_AMEND_EVENT_URL": "",
+      "C_SCB_CALLBACK_CANCEL_EVENT_URL": "",
+      "C_SCB_CALLBACK_EXPIRY_EVENT_URL": "",
+      "DEBUG_JWT": true
+
+    },
+    "CIPHER_CONTROL_PUBLIC_KEY": "/apps/myconnect/keys/privacy_keys/inghk-privacy.pub",
+    "KEY_STORE_CONFIG": {
+      "Key_Store_Protected_Mode": true,
+      "Key_Alias_Bamboo_TLS": "",
+      "Key_Alias_Bamboo_JWT": "",
+      "Key_Alias_Bamboo_Privacy": "inghk-privacy"
+    }
+  }
+}
